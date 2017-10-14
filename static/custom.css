@@ -1,0 +1,40 @@
+/* Screeb reader box */
+.screen-reader-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.5em;
+	border-top: 3px solid orange;
+	border-bottom: 3px solid orange;
+}
+
+.screen-reader-icon {
+	padding: 0.2em;
+	color: orange;
+}
+
+.screen-reader-text {
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 0.7em;
+}
+
+
+/* "lo sapevi che" tip */
+.tip-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.5em;
+	border-top: 3px solid orange;
+	border-bottom: 3px solid orange;
+}
+
+.tip-icon {
+	color: orange;
+	padding: 0.2em;
+}
+
+.tip-title {
+	font-size: 1.3em;
+	color: orange;
+	text-transform: uppercase;
+}

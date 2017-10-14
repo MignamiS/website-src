@@ -1,0 +1,11 @@
+{{ $tip := index ( shuffle .Site.Data.tips.curiosita ) 0 }}
+
+<div class="tip-container">
+	<span style="font-size: 4em;" class="fa fa-lightbulb-o tip-icon"></span>
+	<div style="padding-left: 1em">
+		<p><strong class="tip-title">Lo sapevi che...</strong></p>
+		<p><em>{{ index $tip 0 }}<br/>
+		<a href="{{ .Site.BaseURL }}tags/{{ index $tip 1 }}/">Leggi altro riguardo ai {{ index $tip 1 }}</a>
+		</em></p>
+	</div>
+</div>
