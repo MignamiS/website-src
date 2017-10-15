@@ -1,6 +1,6 @@
 +++
 date = "2017-10-06"
-tags = ["tabelle, roles, layout"]
+tags = ["tabelle", "semantica", "stile"]
 title = "Una tabella senza intestazione è come una barca senza il timone"
 +++
 
@@ -12,9 +12,8 @@ In questo articolo approfondiremo le tabelle e il modo per renderle accessibili 
 <!--more-->
 
 Una tabella è composta, come minimo, da due parti: l'**intestazione** e i **dati**.
-
 Prendiamo ad esempio questa [tabella sul Sistema solare](https://it.wikipedia.org/wiki/Sistema_solare)
-che ho preso da Wikipedia.
+che ho trovato su Wikipedia.
 
 Pianeta 	| Distanza media (milioni di km)	| Perielio (milioni di km)
 ---------	| ------------------------				| --------------------------
@@ -24,8 +23,7 @@ Terra 		| 149,6														| 147,1
 Marte 		| 227,94													| 206,6
 
 Le due parti sono ben definite e trovare la distanza media del nostro pianeta è solo questione di incrociare la riga della Terra con la colonna della distanza.
-
-Ecco come appare una tabella non accessibile quando viene letta da uno screen reader.
+Ecco invece come appare una tabella non accessibile quando viene letta da uno screen reader.
 
 {{< screen_reader "Pianeta Distanza media (milioni di km) Perielio (milioni di km) Mercurio 57,91 46 Venere 108 107,5 Terra 149,6 147,1 Marte 227,94 206,6 ..." >}}
 
@@ -33,7 +31,7 @@ Immagina di dover estrapolare lo stesso dato da una sequenza come questa...
 
 
 
-## Come rendere accessibile una tabella?
+## Come rendere accessibile una tabella
 
 Per rendere accessibile una tabella è sufficiente aggiungere l'**intestazione** (*header*).
 Grazie all'intestazione possiamo dare una forma ai dati anche se questi vengono letti sequenzialmente.
@@ -105,23 +103,24 @@ Maggiori [informazioni sulle tabelle](https://www.w3.org/WAI/tutorials/tables/on
 
 
 
+## Lo stile dell'intestazione
 
+Aggiungere il tag **TH** permette di agevolare la creazione dello stile della tabella.
+Non è necessario, infatti, attribuire classi differenti alla prima riga per poter modificare dimensioni o allineamento del font dell'intestazione.
 
-## Tabelle per il layout
+Già per default le celle marcate come *th* hanno uno stile differente.
+Inoltre avendo un tag diverso rispetto alle celle con i dati, è possibile sfruttarlo come selettore nel CSS.
 
-Quando anni fa cominciai a muovere i primi passi nel mondo del web le tabelle venivano usate in quasi tutti i siti per costruire la struttura di una pagina.
-Oggi con l'introduzione dei **DIV** questa pratica è caduta in disuso.
-Tuttavia capita ancora di trovare parti di una pagina che sfrutta questa tecnica, in particolare per gestire i form.
+~~~css
+td {
+  ...
+}
 
-Per far sì che le tecnologie assistive **ignorino** la struttura della tabella, in modo che non annuncino "colonna 1, colonna 2, ..." è necessario **evitare di inserire la header**.
-
-È proprio l'esatto contrario che stavo sostenendo poco fa, ma questa volta non si tratta di una tabella di dati.
-La tabella presenta una struttura che è valida solo per chi può vederla con i propri occhi. Ecco quindi perché è utile nascondere la sua presenza alle tecnologie assistive.
-Per rinforzare il ruolo di **presentazione** della tabella esiste un [ARIA role](https://www.w3.org/TR/wai-aria/roles#presentation):
-
-~~~html
-<table role="presentation">
+th {
+  ...
+}
 ~~~
+
 
 
 
@@ -131,20 +130,24 @@ Aggiungere una didascalia (*caption*) ad una tabella può essere conveniente: in
 Questo si applica bene all'esempio dei pianeti: una delle colonne che non ho copiato, per semplificare l'esempio, conteneva un'unità di misura chiamata UA (Unità Astronomica).
 Se avessi inserito la forma per esteso nell'etichetta della colonna, questa sarebbe risultata troppo lunga.
 
-Inoltre semanticamente è più corretto inserire le informazioni inerenti alla tabella nella didascalia: questo crea una relazione esplicita che può essere determinata programmaticamente da una macchina.
-
 ~~~html
 <table>
-	<caption>Questa è una didascalia</caption>
+	<caption>Elenco dei pianeti nel sistema solare con le rispettive distanze. L'unità di misura UA è un'abbreviazione per Unità Astronomica.</caption>
 	...
 </table>
 ~~~
+
+Inoltre semanticamente è più corretto inserire le informazioni inerenti alla tabella nella didascalia.
+Questo crea una relazione esplicita che è determinata programmaticamente da una macchina.
+Siccome il tag *caption* si trova all'interno del tag *table* si crea una relazione di parentela fra il contenuto della tabella e della didascalia.
 
 **Nota**: la didascalia deve contenere qualche manciata di parole, non paragrafi interi.
 L'analisi e la spiegazione dei dati vanno messe nella pagina.
 
 Infine per facilitare la comprensione della tabella sarebbe utile inserire la didascalia appena dopo l'apertura del tag *table*.
 In questo modo verrà posizionata prima della tabella e non sotto di essa, dove sarà letta per ultima.
+
+Queste informazioni si applicano anche al tag *figure*.
 
 
 

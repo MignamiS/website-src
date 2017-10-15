@@ -1,11 +1,11 @@
 +++
 date = "2017-10-07"
 tags = ["link"]
-title = "Costruire link decenti"
+title = "Costruire link adatti"
 +++
 
 Una delle componenti base dell'accessibilità di un sito web è la navigazione in esso.
-I **link** ci permettono di spostarci da una parte all'altra, ma quando sono ambigui possono creare vere e proprie barriere persino ad utenti navigati.
+I **link** permettono di spostarci da una parte all'altra, ma quando sono ambigui possono creare vere e proprie barriere persino ad utenti esperti.
 
 Un esempio? Prova a scaricare uno di quei software gratuiti ed evitare tutti i banner pubblicitari che ti dicono "scarica!" e "download".
 Confondere l'utente per questi siti è la prassi così **CASUALMENTE** prima di trovare quello che cerca si fa un bel giretto e fa guadagnare soldi al gestore.
@@ -45,12 +45,13 @@ Ad esempio possiamo scrivere:
 Questo porta diversi benefici:
 
 1. Il link indica in modo esplicito dove porta e migliora accessibilità e SEO.
-2. L'area cliccabile è più estesa rendendolo più facile da attivare anche per utenti mobile.
+2. L'area cliccabile è più estesa rendendolo più facile da attivare, soprattutto per utenti mobile o con difficoltà motorie.
 3. Fa risaltare il testo invogliando il lettore a cliccare.
 
 
-**Nota**: quando possibile evita di inserire un URL come testo di un link, ad esempio http://www.google.com.
+Da notare che sarebbe meglio evitare di inserire un URL come testo di un link, ad esempio http://www.example.com.
 L'etichetta deve essere leggibile da un essere umano.
+
 
 
 ## Link brevi per natura
@@ -95,11 +96,9 @@ In questo caso ho utilizzato l'attributo *title*, ma è anche possibile inserire
 
 ## Conclusioni
 
-Avere dei link chiari in una pagina porta molteplici benefici.
+Avere dei link chiari in una pagina porta diversi benefici.
 In primo luogo sono accessibili, rendendo la navigazione piacevole e senza "colpi di scena".
-
 In secondo luogo vengono sostenuti i motori di ricerca (SEO) nel loro lavoro di indicizzazione delle nostre pagine.
-
 Infine un'etichetta più grande è facile da premere, cosa che avvantaggia gli utenti mobile e tutti coloro che hanno difficoltà motorie.
 
 Qualche secondo in più di lavoro è sicuramente un buon investimento.

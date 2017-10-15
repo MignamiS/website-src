@@ -7,8 +7,6 @@ disableComments = true
 +++
 
 
-# Chi sono
-
 Due parole su di me e su questo sito.
 
 ## Biografia
@@ -17,7 +15,7 @@ Mi chiamo Simone Mignami e vivo in Ticino (Svizzera), dove sono nato e cresciuto
 
 A 11 anni mi hanno diagnosticato una Retinite Pigmentosa, una malattia genetica che colpisce la retina e degrada la vista fino a condurre alla cecità.
 Questa malattia ha condizionato in maniera importante la mia vita: dapprima gli studi, poi il lavoro.
-Ma sono sempre stato spronato dalla mia famiglia e dai miei amici ad andare avanti e a trasformare la mia debolezza nella mia forza.
+Sono sempre stato spronato dalla mia famiglia e dai miei amici ad andare avanti e a trasformare la mia debolezza nella mia forza.
 
 Terminato il liceo ho intrapreso la strada dell'università. Dopo alcune false partenze, che mi hanno comunque permesso di crescere e imparare cose nuove, sono approdato alla Scuola universitaria professionale della Svizzera italiana (SUPSI) dove mi sono diplomato come Ingegnere informatico nel 2015.
 
@@ -42,8 +40,8 @@ Purtroppo gli innumerevoli impegni mi hanno visto costretto, seppure a malincuor
 
 ## WebASD - Il Web Accessibile Senza Difficoltà
 
-L'idea di aprire un blog mi ha sempre stuzzicato e ora che ho accumulato un po' di conoscenza intendo infonderla in queste pagine perché chiunque ne possa attingere.
-Si tratta perlopiù di esperienze dirette, trucchi del mestiere e frammenti di codice che tutti i giorni mi accompagnano nella mia carriera lavorativa.
+L'idea di aprire un blog mi ha sempre stuzzicato e ora che ho accumulato un po' di conoscenze intendo infonderle in queste pagine perché chiunque ne possa attingere.
+Si tratta perlopiù di esperienze dirette, trucchi del mestiere e frammenti di codice che tutti i giorni mi accompagnano nel mio lavoro.
 
 È vero, esistono innumerevoli siti web che trattano questo argomento: ma se in inglese il materiale è quasi troppo, in italiano c'é veramente troppo poco in merito all'accessibilità web.
 
