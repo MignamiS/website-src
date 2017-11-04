@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "https://mignamis.github.io"
+baseurl = "https://mignamis.github.io/"
 languageCode = "it"
 title = "WebASD"
 theme = "theme-hugo-foundation6"
