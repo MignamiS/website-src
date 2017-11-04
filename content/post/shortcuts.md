@@ -10,19 +10,28 @@ Quante volte si sente nei telefilm questa frase, e tutte le volte l'informatico 
 Spesso la gente si sorprende che nell'era del mouse e delle interfacce grafiche ci sia ancora qualcuno in grado di utilizzare un computer solo tramite la tastiera.
 Diverse persone però fanno ampio uso di questo strumento per necessità, più che per comodità.
 
-Ecco alcune curiosità e trucchetti per utilizzare un computer con Microsoft Windows **unicamente utilizzando la tastiera**.
+Ecco alcune curiosità e trucchetti per utilizzare un computer **unicamente con la tastiera**.
 
 
 <!--more-->
 
+Tutti i computer hanno una paletta più o meno estesa di scorciatoie da tastiera.
+Soprattutto i programmi per i programmatori, veri "pianisti" quando si tratta di manipolare il codice.
+
+Non esiste una legislatura quando si tratta di combinazioni di tasti: ogni sistema operativo e programma può scegliere se aderire alle convenzioni o se re-inventare i propri comandi rapidi.
+Ho deliberatamente scelto di trattare solamente l'ambiente Microsoft Windows.
+Tuttavia questo articolo è un semplice spunto: una volta scoperto che esiste una combinazione di tasti per una funzione specifica, si può cercare la scorciatoia corrispondente al proprio sistema operativo.
+
 Questi sono i tasti maggiormente utilizzati:
+
+
 
 Tasto		| Descrizione
 ------	| -------------
 Ctrl		| Tasto *control*, solitamente in basso a sinistra e a destra.
 Shift		| Tasto *maiuscolo* o *maiusc*.
 Alt			| Di solito si trova a sinistra della barra spaziatrice. **Nota**: il tasto *Alt gr* spesso non si comporta nello stesso modo e non è quindi da confondere.
-Win			| Tasto di Windows, si trova a destra del tasto *Ctrl* e ha il disegno di una bandierina in un cerchio; quest'ultimo è in molte tastiere percepibile anche al tocco.
+Win			| Tasto di Windows, si trova a destra del tasto *Ctrl* e ha il disegno di una bandierina in un cerchio; quest'ultimo è percepibile al tatto in molte tastiere.
 Destra, sinistra, su, giù	| Le frecce.
 
 
@@ -31,9 +40,9 @@ Destra, sinistra, su, giù	| Le frecce.
 Qualche scorciatoia per navigare nel computer senza usare il mouse.
 
 Andare alla barra delle icone
-:	**Win + B** sposta il cursore nella barra delle applicazioni, dove di solito ci sono icone con informazioni su data e ora, volume, stato della connnessione e batteria, ecc.
+:	**Win + B** sposta il cursore nella traybar. Da qui si possono vedere, oltre alle informazioni del computer come connettività, batteria e volume, anche diversi servizi come antivirus, webserver attivi o programmi in background.
 
-Indietro
+Vai indietro
 :	**Alt + Sinistra** in molte applicazioni consente di tornare indietro. Funziona ad esempio nelle cartelle e nel browser.
 
 Chiudi finestra
@@ -43,7 +52,7 @@ Chiudi la tab corrente
 :	**Ctrl + W**, utile per quei siti che aprono finestrelle noiose di pubblicità.
 
 Vai alla barra indirizzi (cartelle)
-:	**F4** sposta il cursore nella barra di indirizzi della cartella. Comodo se si vuole copiare il percorso della cartella corrente o se si vuole lanciare un comando nella posizione corrente.
+:	**F4** sposta il cursore nella barra degli indirizzi della cartella. Comodo se si vuole copiare il percorso corrente o se si vuole lanciare un comando in quella posizione del disco.
 
 Vai alla barra indirizzi (browser)
 :	**Alt + D** sposta il cursore nella barra indirizzi. Funziona sia per Firefox che Google Chrome.
@@ -51,7 +60,7 @@ Vai alla barra indirizzi (browser)
 Vai al menu
 :	**Alt**. Molte applicazioni hanno un menu, ad esempio File, Modifica, Strumenti, ecc. Premendo il tasto *alt* il cursore si sposta sul primo menu a tendina.
 
-Apri menu di Windows
+Apri menu start di Windows
 :	**Win** consente di lanciare programmi o di aprire documenti. Quando il menu è aperto si può digitare il nome dell'elemento che si vuole chiamare e apparirà una lista con tutte le voci che corrispondono alla ricerca.
 
 
@@ -64,7 +73,7 @@ Salta alla parola successiva/precedente
 :	**Ctrl + Sinistra/Destra**. In un editor di testo consente di spostare il cursore di testo alla parola successiva o precedente. Aggiungendo anche il tasto **Shift** seleziona una parola intera alla volta.
 
 Vai a fine/inizio riga
-:	**Home/End** spostano il cursore all'inizio o alla fine di una riga. Non tutti sanno però che premendo anche **Ctrl** il cursore viene spostato alla fine o all'inizio della pagina della **pagina**. Abbinando anche **Shift** si può selezionare tutto il testo dalla posizione del cursore fino al punto in cui si è saltato.
+:	**Home/End** spostano il cursore all'inizio o alla fine di una riga. Non tutti sanno però che premendo anche **Ctrl** il cursore viene spostato alla fine o all'inizio della pagina. Abbinando anche **Shift** si può selezionare tutto il testo dalla posizione del cursore fino al punto in cui si è saltato.
 
 Crea nuova cartella
 :	**Ctrl + Shift + N**.

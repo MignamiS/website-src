@@ -7,7 +7,7 @@ title = "Costruire link adatti"
 Una delle componenti base dell'accessibilità di un sito web è la navigazione in esso.
 I **link** permettono di spostarci da una parte all'altra, ma quando sono ambigui possono creare vere e proprie barriere persino ad utenti esperti.
 
-Un esempio? Prova a scaricare uno di quei software gratuiti ed evitare tutti i banner pubblicitari che ti dicono "scarica!" e "download".
+Un esempio? provare a scaricare uno di quei software gratuiti ed evitare tutti i banner pubblicitari che dicono "scarica!" e "download".
 Confondere l'utente per questi siti è la prassi così **CASUALMENTE** prima di trovare quello che cerca si fa un bel giretto e fa guadagnare soldi al gestore.
 
 Ma tu non sei uno di questi gestori disonesti, vero? VERO??? Bene, ecco qualche suggerimento per creare dei link che siano accessibili.

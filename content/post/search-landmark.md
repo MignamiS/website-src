@@ -16,6 +16,8 @@ In questo articolo la risposta alla domanda, tutt'altro che scontata.
 
 <!--more-->
 
+{{< curiosita "la maggior parte dei miglioramenti dell'accessibilità riguardano meno di 2 righe di codice." >}}
+
 ## L'arbitrarietà dei menu di navigazione
 
 Capita di navigare in siti web le cui pagine sono organizzate secondo logiche aliene, con un menu di navigazione non ben identificato, sia visivamente che semanticamente.

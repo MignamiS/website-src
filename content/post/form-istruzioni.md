@@ -10,7 +10,7 @@ Dopo aver digitato una password nell'apposito campo l'utente passa al successivo
 Purtroppo non è una barzelletta, addetti al supporto clienti si imbattono tutti i giorni in situazioni come questa.
 A volte perché l'utente è veramente inesperto, a volte perché l'interfaccia confonde le idee.
 
-Ecco qualche spunto per rendere i nostri form un po' più vivibili.
+Ecco qualche spunto per rendere i form un po' più comprensibili ed usabili.
 
 <!--more-->
 
@@ -23,16 +23,23 @@ Se poi si ha a che fare con persone con difficoltà visive o motorie, ci sono an
 
 
 
-## Perché etichettare i campi dei form
+## Perché etichettare i campi
 
 "Ma io uso sempre le etichette quando costruisco un form!" dirà qualcuno risentito.
-E lo credo bene: un form senza etichette è un po' come un cartello stradale con delle frecce, ma senza i nomi delle località alle quali puntano.
+E lo credo bene: un form senza etichette è un po' come un cartello stradale con le frecce, ma senza i nomi delle località.
+Però c'é una grossa differenza fra inserire delle etichette e **collegarle al campo rispettivo**.
+
+Utilizzando uno screen reader ecco come appare un campo di testo al quale non è stata collegata nessuna etichetta:
+
+{{< screen_reader "Campo di testo vuoto" >}}
+
+UN utente con problemi di vista sa che si trova in un campo di testo, ma non riceve nessun altra informazione ed è costretto a navigare attorno ad esso per trovare eventuali indizi che gli suggeriscano lo scopo del campo e il modo corretto per compilarlo.
+Questa operazione può facilmente diventare lunga ed insidiosa al crescere del numero di campi presenti nel form.
 
 Chi fa uso di tecnologie assistive come screen reader spesso salta da un campo all'altro con il *tabulatore*.
-Ma se il campo non ha un'etichetta associata viene annunciato solo "campo di testo" o "checkbox non selezionato".
 
 Inoltre entrando in un form si attiva una modalità speciale chiamata "modalità di input" che ignora tutto quello che c'é scritto attorno ai campi che non siano etichette.
-Ad esempio se prima di un campo c'é un paragrafo che spieghi che tutti i campi sono obbligatori, questa informazione andrebbe inesorabilmente persa.
+Ad esempio se prima di un campo c'é un paragrafo che spieghi che tutti i campi sono obbligatori, questa informazione andrebbe persa.
 
 
 
@@ -40,12 +47,16 @@ Ad esempio se prima di un campo c'é un paragrafo che spieghi che tutti i campi 
 
 Quando si aggiunge un campo, sia esso un campo di testo, un checkbox o un menù a tendina, occorre sempre fare 2 operazioni:
 
-1. Inserire un'etichetta per il campo;
+1. Inserire un'etichetta
 2. **Collegare l'etichetta al campo**;
 
 Il secondo punto è il più importante perché è quello che rende accessibile il campo appena inserito.
 Collegando l'etichetta si stabilisce una relazione fra i due elementi che può essere rilevata programmaticamente anche da una macchina.
-Per stabilire questa relazione non è infatti sufficiente mettere etichetta e campo vicini, sia nel DOM che visivamente, ma occorre creare una relazione in codice.
+Per stabilire questa relazione non è infatti sufficiente metterli vicini, sia nel DOM che visivamente, ma occorre creare una relazione in codice.
+
+
+In questo modo è possibile determinare programmaticamente il collegamento fra questi due elementi.
+Il 
 
 **Benefici di collegare correttamente etichetta e campo**:
 

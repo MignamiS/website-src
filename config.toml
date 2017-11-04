@@ -23,7 +23,7 @@ paginate = 10
 	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = ""
 
-	headerText = "Web Accessibile Senza Difficoltà Contiene tutto quello che devi sapere per curare l'accessibilità."
+	headerText = "Web Accessibile Senza Difficoltà, tutto ciò che serve da sapere sull'accessibilità"
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
