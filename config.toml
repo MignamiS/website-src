@@ -1,57 +1,99 @@
-baseurl = "https://mignamis.github.io/"
+# Hugo variables
+#
+baseurl = "https://mignamis.github.io"
 languageCode = "it"
 title = "WebASD"
-theme = "hugo-type-theme"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "webasd"
-# Add your tracking code to enable Google Analytics
-googleAnalytics = "UA-25273359-4"
-# Posts per page
-paginate = 10
-# Comment the themesDir option if you use this theme in production
-# themesDir = "../.."
+theme = "theme-hugo-foundation6"
+# number of posts to show on home/category/tag pages (Default: 10)
+paginate = 5
+# optionally override the site's footer with custom copyright text
+# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+#googleAnalytics = "UA-25273359-4"
+#disqusShortname = "webasd"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+[[menu.sidebar]]
+  name = "Su Twitter"
+  url = "https://twitter.com/MignamiSimone?lang=it"
+
+[[menu.sidebar]]
+  name = "Scrivimi"
+  url = "mailto:simone.mig29@gmail.com"
+
+# custom navbar menu entry.   See the custom_navbar parameter below for
+# details.
+
+#[[menu.navbar]]
+#  name = "Link 1"
+#  url = "https://example.org"
 
 
+# Theme variables
+#
 [params]
-	author = "Simone Mignami"
-	description = "Consigli utili per un web accessibile."
-	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = "accessibilità, web, tecnologia, WAI-ARIA, HTML5, screen reader"
-	# Either show custom avatar on the top
-	# left by adding the filename in below
-	avatar = "img/logo.png"
-	# or use Gravatar by adding your email address to generate a unique avatar
-	gravatar = ""
+  # Site author
+  author = "Simone Mignami"
 
-	headerText = "Web Accessibile Senza Difficoltà, tutto ciò che serve da sapere sull'accessibilità"
-	# To add a header background to the main site, save your image under static/img/.
-	# If now image path is provided, a orange background will be shown instead.
-	headerImage = ""
-	copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+  # Description/subtitle for homepage (can be Markdown)
+  description = "Web Accessibile Senza Difficoltà contiene tutto ciò che serve sapere sull'accessibilità."
 
+  # Format dates with Go's time formatting
+  date_format = "Mon Jan 02, 2006"
 
-	[params.social]
-		# Insert your accout name and the icon will be shown in the right menu
-		rss = true
-		homepage = true
-		email = "simone.mig29@gmail.com"
-		behance = ""
-		bitbucket  =""
-		dribbble = ""
-		facebook = ""
-		flickr = ""
-		github = ""
-		googleplus = ""
-		instagram = ""
-		linkedin = ""
-		pinterest = ""
-		reddit = ""
-		soundcloud = ""
-		stackexchange = ""
-		steam = ""
-		tumblr = ""
-		twitter = ""
-		wordpress = ""
-		youtube = ""
-		gitlab = ""
-		trello = ""
+  # verification string for Google Webmaster Tools
+  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+
+  # verification string for Bing Webmaster Tools
+  #bing_verify_meta = "3DA353059F945D1AA256B1CD8A3DA847"
+
+  # verification string for Yandex Webmaster Tools
+  #yandex_verify_meta = "66b077430f35f04a"
+
+  # Optionally display a message about the site's use of cookies, which may be
+  # required for your site in the European Union. Set the parameter below to a
+  # page where the user can get more information about cookies, either on your
+  # site or externally, for example:
+  #cookie_consent_info_url = "/cookie-information/"
+  #cookie_consent_info_url = "http://cookiesandyou.com"
+
+  # customise the contents of the navbar at the top of the page.  The default
+  # behaviour is to list all static pages not in the posts directory. When the
+  # parameter below is set to true you will have to manually add entries to the
+  # navbar, either by adding the following menu variable to the front matter of
+  # the relevant pages
+  #   menu = "navbar"
+  # or by specifying menu entries in a similar way to the sidebar menu above.
+  custom_navbar = true
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "Un semplice blog per condividere esperienze e conoscenze riguardo l'accessibilità del mondo web."
+
+    # How many posts to show on the sidebar (Default: 5)
+    #num_recent_posts = 3
+
+  [params.social]
+    # Optional, used for attribution in Twitter cards
+    # See: https://dev.twitter.com/cards/types/summary-large-image
+    twitter = "username"
+
+  [params.sharingicons]
+    # Hide the sharing icons on posts? (Default: false)
+    hide = false
+
+    # Optionally, set any of these to false to hide them:
+    #facebook = true
+    #googleplus = true
+    #linkedin = true
+    #twitter = true
+
+# Default content language for Hugo 0.17's multilingual support (default is "en")
+# See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
+DefaultContentLanguage = "it"
+
+# Languages to render
+#[languages.en]
+#[languages.bg]

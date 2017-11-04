@@ -2,7 +2,7 @@
 date = "2017-10-06"
 title = "Chi sono"
 featureimage = ""
-menu = "nav"
+menu = "navbar"
 disableComments = true
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Tags"
 date = "2017-09-29"
-menu = "nav"
+menu = "navbar"
 disableComments = true
 +++
 

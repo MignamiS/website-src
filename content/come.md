@@ -2,7 +2,7 @@
 date = "2017-10-22"
 title = "Come"
 featureimage = ""
-menu = "nav"
+menu = "navbar"
 disableComments = true
 +++
 
