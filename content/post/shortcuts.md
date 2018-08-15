@@ -89,3 +89,15 @@ Rinomina file
 
 Cerca file e cartelle
 :	**F3**.
+
+
+
+## In conclusione
+
+Non si è mai troppo esperti quando si tratta di imparare nuove combinazioni di tasti.
+Chi per pigrizia o per necessità si ostina a non voler utilizzare il mouse può contare su una gran quantità di comandi rapidi da tastiera.
+Quando si compiono decine o anche centinaia di volte le stesse operazioni, è buona prassi chiedersi se non esista una combinazione di tasti che permetta di compiere l'azione in meno tempo.
+Se un programma è ben concepito fornisce sicuramente un set di scorciatoie da tastiera per agevolare i propri utenti.
+
+Ho sicuramente dimenticato qualche scorciatoia utile.
+Se credi che la lista sia incompleta aggiungi pure nei commenti quelle che secondo te andrebbero incluse nell'elenco dei comandi che non devono mancare nella cassetta degli attrezzi di qualsiasi utente.
