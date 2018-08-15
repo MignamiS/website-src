@@ -1,8 +1,0 @@
-<figure style="margin-top: 2em; margin-botton: 2.5em; text-align: center;">
-	{{ $url := printf "%s%s" .Site.BaseURL (.Get "src") }}
-	<img src="{{ $url }}" alt="{{ .Get "alt" }}" class="img img-responsive" style="display: block; margin: auto"/>
-	
-	{{ if .Get "caption" }}
-		<caption style="display: block;"><em>{{ .Get "caption" }}</em></caption>
-	{{ end }}
-</figure>
